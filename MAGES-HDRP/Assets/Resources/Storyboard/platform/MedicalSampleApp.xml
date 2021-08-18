@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<ArrayOfLessons xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Lessons>
+    <Lesson_Name>Knee Incision</Lesson_Name>
+    <Stages>
+      <Stage_Name>Incision and Preparation</Stage_Name>
+      <Actions>
+        <Action>Operation Start</Action>
+        <ActionClassName>MedicalOperationStart</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>1000</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Skin Incision</Action>
+        <ActionClassName>SkinIncisionAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Cauterize the bloodspots</Action>
+        <ActionClassName>CauteriseBloodSpotsAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Cut Fat</Action>
+        <ActionClassName>CutFatAction</ActionClassName>
+        <ActionType>Basic</ActionType>
+        <AverageActionTime>23.613</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Cut From Inside 1/3 Of Patellar Link</Action>
+        <ActionClassName>CutThylacusAction</ActionClassName>
+        <ActionType>Basic</ActionType>
+        <AverageActionTime>9.126</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+  </Lessons>
+  <Lessons>
+    <Lesson_Name>Knee Drilling</Lesson_Name>
+    <Stages>
+      <Stage_Name>Drilling the knee</Stage_Name>
+      <Actions>
+        <Action>Drill Knee At Marked Spot</Action>
+        <ActionClassName>DrillKneeAction</ActionClassName>
+        <ActionType>Crucial</ActionType>
+        <AverageActionTime>18.145</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+    <Stages>
+      <Stage_Name>Preparation For Femoral Cut</Stage_Name>
+      <Actions>
+        <Action>Insert Metal Rod</Action>
+        <ActionClassName>InsertMetalRodAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>11.144</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Retract Handle</Action>
+        <ActionClassName>RemoveHandleAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>6.71</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Insert Alignment Guide and Cutting Block</Action>
+        <ActionClassName>InsertGuidesAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>5.324</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>MedicalOperationEnd</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>1000</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>

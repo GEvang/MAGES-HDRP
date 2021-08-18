@@ -1,0 +1,13 @@
+using UnityEngine;
+using ovidVR.ActionPrototypes;
+
+public class #SCRIPTNAME# : InsertAction
+{
+    public override void Initialize()
+    {
+        SetInsertPrefab("#INTERACTABLE_PREFAB#", "#FINAL_PREFAB#");
+        SetHoloObject("#HOLO_PREFAB#");
+
+        base.Initialize();
+    }
+}

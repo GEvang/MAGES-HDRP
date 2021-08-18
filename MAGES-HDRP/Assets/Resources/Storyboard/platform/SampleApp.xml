@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ArrayOfLessons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Lessons>
+    <Lesson_Name>Starting Lesson</Lesson_Name>
+    <Stages>
+      <Stage_Name>Starting Stage</Stage_Name>
+      <Actions>
+        <Action>Operation Start</Action>
+        <ActionClassName>OperationStart</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>1000</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>QuestionExample</Action>
+        <ActionClassName>QuestionActionExample</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+    <Stages>
+      <Stage_Name>Decision making Stage</Stage_Name>
+      <Actions>
+        <Action>Assemble the North Gate OR Assemble Sponza</Action>
+        <ActionClassName>AssembleKnossosORSponzaAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+  </Lessons>
+  <Lessons>
+    <Lesson_Name>Knossos Lesson</Lesson_Name>
+    <Stages>
+      <Stage_Name>Knossos Assemble Stage</Stage_Name>
+      <Actions>
+        <Action>Remove the flashing Minoan Jar</Action>
+        <ActionClassName>RemoveJarExample</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Remove the Minoan Jars using Pliers</Action>
+        <ActionClassName>RemoveJarWithToolExample</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Apply Glue using the Syringe</Action>
+        <ActionClassName>ApplyGlueAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Insert the plug</Action>
+        <ActionClassName>InsertPlugAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>OperationEndAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>1000</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>

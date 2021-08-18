@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfLessons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Lessons>
+    <Lesson_Name>Sponza Restoration ADD(0|1|0-0|0|0)</Lesson_Name>
+    <Stages>
+      <Stage_Name>Sponza Stage</Stage_Name>
+      <Actions>
+        <Action>Clean Sponza Monument</Action>
+        <ActionClassName>CleanSponzaAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10.0</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Scratch Sponza Monument</Action>
+        <ActionClassName>ScratchSponzaAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>10.0</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>OperationEndAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>1000</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>

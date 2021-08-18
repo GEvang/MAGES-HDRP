@@ -1,0 +1,76 @@
+{
+  "multiplier": 1,
+  "errorsData": [
+    {
+      "errorMsg": 202,
+      "remainingActions": 0,
+      "errorToolsColliders": [
+        "Assets/Resources/LessonPrefabs/Lesson0/Stage0/Action1/Analytics/FloorErrorCollider.prefab"
+      ],
+      "errorTools": [
+        0,
+        5,
+        10
+      ],
+      "errorGO": [
+        "Assets/Resources/LessonPrefabs/Lesson0/Stage0/Action1/Analytics/buddha low.prefab",
+        "Assets/Resources/LessonPrefabs/Lesson0/Stage0/Action1/Analytics/Erato low.prefab",
+        "Assets/Resources/LessonPrefabs/Lesson0/Stage0/Action1/Analytics/Indonesian_statue_pivot.prefab",
+        "Assets/Resources/LessonPrefabs/Lesson0/Stage0/Action1/Analytics/KnossosBackPart.prefab"
+      ],
+      "collidersParents": [
+        ""
+      ],
+      "errorType": 1,
+      "errorWithTime": false,
+      "errorWithTimer": 0.0,
+      "showErrorUI": true,
+      "importance": 3
+    }
+  ],
+  "errorsStayData": [],
+  "errorsHitPerformData": [],
+  "timeData": {
+    "enabled": true,
+    "timer": 10.0,
+    "importance": 3
+  },
+  "lerpData": {
+    "enabled": false,
+    "scoringAngles": [],
+    "finalLerpGameObjects": [],
+    "importance": 2
+  },
+  "qData": {
+    "enabled": true,
+    "questionPrefabs": [
+      "Assets/Resources/LessonPrefabs/Lesson0/Stage0/Action1/QuestionPrefabExample.prefab"
+    ],
+    "spawnError": true,
+    "questionErrorMsg": 206,
+    "questionErrorType": 1,
+    "importance": 3,
+    "skill": [
+      ""
+    ],
+    "scoringMethod": 0
+  },
+  "vData": {
+    "enabled": false,
+    "interactablePrefab": "",
+    "velocity": 0.0,
+    "spawnError": false,
+    "errorMsg": 0,
+    "errorType": 0,
+    "importance": 2
+  },
+  "customAnalyticsData": {
+    "enabled": false,
+    "script": null,
+    "importance": 2
+  },
+  "numberOfMetrics": 3,
+  "errorsEnabled": true,
+  "stayErrorsEnabled": false,
+  "hitPerformErrorsEnabled": false
+}

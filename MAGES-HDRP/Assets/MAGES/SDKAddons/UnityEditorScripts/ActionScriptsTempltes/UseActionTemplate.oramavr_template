@@ -1,0 +1,14 @@
+using ovidVR.ActionPrototypes;
+using UnityEngine;
+
+public class #SCRIPTNAME# : UseAction
+{
+    public override void Initialize()
+    {
+        SetUsePrefab("#USE_PREFAB#", "#COLLIDER_PREFAB#");
+
+        SetHoloObject("#HOLO_PREFAB#");
+
+        base.Initialize();
+    }
+}

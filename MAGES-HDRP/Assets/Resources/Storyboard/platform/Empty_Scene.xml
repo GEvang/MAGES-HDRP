@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ArrayOfLessons xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Lessons>
+    <Lesson_Name>Starting Lesson</Lesson_Name>
+    <Stages>
+      <Stage_Name>Starting Stage</Stage_Name>
+      <Actions>
+        <Action>Operation Start</Action>
+        <ActionClassName>OperationStartEmpty</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>1000</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+      <Actions>
+        <Action>Operation End</Action>
+        <ActionClassName>OperationEndAction</ActionClassName>
+        <ActionType>Simple</ActionType>
+        <AverageActionTime>1000</AverageActionTime>
+        <IsDemoApplicable>y</IsDemoApplicable>
+      </Actions>
+    </Stages>
+  </Lessons>
+</ArrayOfLessons>
